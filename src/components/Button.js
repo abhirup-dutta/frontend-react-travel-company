@@ -15,3 +15,5 @@ export const Button = ({
     const checkButtonSize = SIZES.includes(buttonSize) ?
         buttonSize : SIZES[0];
 };
+
+export default Button;
