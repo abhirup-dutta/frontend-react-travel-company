@@ -9,7 +9,7 @@ function HeroSection() {
         <div className='hero-container'>
             <video src={video} autoPlay loop muted />
             <h1>ADVENTURE AWAITS</h1>
-            <p>Embark on a life-changing journey along the St. Lawrence, the Maritimes, and the Arctic.</p>
+            <p>Embark on a life-changing journey along the Canadian Maritimes, Newfoundland, and the Arctic.</p>
             <div className='hero-btns'>
                 <Button
                     className='btns'
