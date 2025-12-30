@@ -15,14 +15,14 @@ function Cards(props) {
                                 alt='Lighthouse'
                                 text='Explore the rich history of the Canadian Maritimes'
                                 label='History'
-                                path='/services'
+                                path='/maritimes'
                             />
                             <CardItem
                                 src='images/st-johns-newfoundland.jpg'
                                 alt='Colorful houses perched on a rocky cliff'
                                 text='Explore the eastern-most point of North America at Newfoundland and Labrador'
                                 label='Luxury'
-                                path='/services'
+                                path='/newfoundland'
                             />
                         </ul>
                         <ul className='cards__items'>
@@ -31,7 +31,7 @@ function Cards(props) {
                                 alt='polar bears'
                                 text='Go beyond the Arctic Circle to the end of the world.'
                                 label='Adventure'
-                                path='/services'
+                                path='/arctic'
                             />
                         </ul>
                     </div>

@@ -2,7 +2,7 @@ import React from 'react';
 import '../App.css';
 import { Button } from './Button';
 import './HeroSection.css';
-import video from '../resources/videos/canada_mountain_train_snow.mp4'
+import video from '../resources/videos/snowy-treetops.mp4'
 
 function HeroSection() {
     return (

@@ -1,0 +1,165 @@
+/* ================================
+   Snow & Mountain Theme
+   ================================ */
+
+/* Reset & Base */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.7;
+    color: #1f2a36;
+    background: linear-gradient(
+            to bottom,
+            #f7fbff 0%,
+            #e6f0f8 40%,
+            #d1e2ef 100%
+    );
+}
+
+/* Layout */
+header,
+section,
+footer {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 3rem 1.5rem;
+}
+
+/* Header */
+header {
+    text-align: center;
+    background: linear-gradient(
+            to bottom,
+            #2f4f6f,
+            #1f3b52
+    );
+    color: #f5fbff;
+    border-bottom: 6px solid #c9dceb;
+}
+
+header h1 {
+    font-size: 3rem;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.5rem;
+}
+
+header h2 {
+    font-size: 1.3rem;
+    font-weight: 300;
+    color: #d7ecff;
+}
+
+/* Section Headings */
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #2f4f6f;
+    border-left: 6px solid #bcd4e6;
+    padding-left: 1rem;
+}
+
+section h3 {
+    font-size: 1.4rem;
+    margin: 2rem 0 0.75rem;
+    color: #3c5a73;
+}
+
+/* Text */
+p {
+    margin-bottom: 1.2rem;
+    max-width: 70ch;
+}
+
+ul {
+    margin: 1rem 0 1.5rem 2rem;
+}
+
+li {
+    margin-bottom: 0.6rem;
+}
+
+/* Snowy Panels */
+section {
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(47, 79, 111, 0.12);
+    margin-bottom: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Mountain Divider */
+section::after {
+    content: "";
+    display: block;
+    margin-top: 2.5rem;
+    height: 2px;
+    background: linear-gradient(
+            to right,
+            transparent,
+            #b0cde3,
+            transparent
+    );
+}
+
+/* Lists */
+ul li::marker {
+    color: #7fa8c9;
+}
+
+
+
+
+
+/* Footer */
+footer {
+    background: linear-gradient(
+            to bottom,
+            #1f3b52,
+            #0f2636
+    );
+    color: #eaf6ff;
+    border-top: 6px solid #bcd4e6;
+}
+
+footer h2 {
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+
+footer p {
+    color: #d6e9f7;
+}
+
+/* Links (future-proofing) */
+a {
+    color: #5fa6d8;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.2rem;
+    }
+
+    section h2 {
+        font-size: 1.6rem;
+    }
+
+    section,
+    header,
+    footer {
+        padding: 2rem 1.2rem;
+    }
+}
