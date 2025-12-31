@@ -26,7 +26,7 @@ function App() {
                 <Route path='/arctic' exact element={<Arctic />} />
                 <Route path='/newfoundland' exact element={<Newfoundland />} />
                 <Route path='/maritimes' exact element={<Maritimes />} />
-                <Route path='/sign-up' exact element={<SignUp />} />
+                <Route path='/sign-up' exact element={<About />} />
             </Routes>
         </Router>
     </>

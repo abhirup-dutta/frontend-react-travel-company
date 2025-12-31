@@ -2,6 +2,7 @@ import React from "react";
 import {Link} from "react-router-dom";
 import video from "../../resources/videos/snowy-treetops.mp4";
 import HeroSection from "../HeroSection";
+import Footer from "../Footer";
 
 function DestinationTemplate (props) {
 
@@ -30,6 +31,8 @@ function DestinationTemplate (props) {
                     {props.tourpackages}
                 </p>
             </section>
+
+            <Footer />
         </>
     );
 

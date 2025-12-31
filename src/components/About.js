@@ -1,5 +1,6 @@
 import React from "react";
 import "./shared/PageTemplate.css";
+import Footer from "./Footer";
 
 function About () {
 
@@ -19,6 +20,7 @@ function About () {
                     {aboutContent}
                 </p>
             </section>
+            <Footer />
         </>
     );
 

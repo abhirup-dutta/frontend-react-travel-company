@@ -15,10 +15,10 @@
     justify-content: center;
     align-items: center;
     height: 80px;
-    max-width: 1500px;
 }
 
 .navbar-logo {
+    flex: 50%;
     color: #fff;
     justify-self: start;
     margin-left: 20px;
@@ -31,7 +31,7 @@
 
 .fa-typo3 {
     margin-left: 0.5rem;
-    font-size: 1.8rem;
+    font-size: 3rem;
 }
 
 .nav-menu {
@@ -54,13 +54,13 @@
     display: flex;
     align-items: center;
     text-decoration: none;
-    padding: 0.5rem 1rem;
-    height: 100%;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    height: 120%;
 }
 
 .nav-links:hover {
-    border-bottom: 4px solid #fff;
-    transition: all 0.2s ease-out;
+    border-bottom: 4px solid ;
+    transition: all 0.2s ease-in-out;
 }
 
 .fa-bars {
@@ -79,6 +79,11 @@
     .NavbarItems {
         position: relative;
     }
+
+    .navbar-logo {
+        flex: 20%;
+    }
+
 
     .nav-menu {
         display: flex;

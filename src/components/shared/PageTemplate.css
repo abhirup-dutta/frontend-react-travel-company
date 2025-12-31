@@ -164,7 +164,6 @@ a:hover {
 
 .card-container {
     display: flex;
-    flex-direction: row;
     overflow: hidden; /* Ensures borders/shadows contain content */
     color: #ffffff;
     background: slategrey;
@@ -174,7 +173,7 @@ a:hover {
 }
 
 .card-image-wrapper {
-    flex: 2; /* Takes up 1 part of the flexible space */
+    flex: 50%; /* Takes up 1 part of the flexible space */
 }
 
 .card-image-wrapper img {
@@ -185,10 +184,8 @@ a:hover {
 }
 
 .card-content {
-    flex: 2; /* Takes up 2 parts of the flexible space */
+    flex: 50%; /* Takes up 2 parts of the flexible space */
     padding: 20px;
-    display: flex;
-    flex-direction: column;
     justify-content: center; /* Centers content vertically */
 }
 
