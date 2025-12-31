@@ -15,9 +15,8 @@ body {
     color: #1f2a36;
     background: linear-gradient(
             to bottom,
-            #f7fbff 0%,
-            #e6f0f8 40%,
-            #d1e2ef 100%
+            lightsteelblue 0%,
+            steelblue 100%
     );
 }
 
@@ -25,7 +24,6 @@ body {
 header,
 section,
 footer {
-    max-width: 1100px;
     margin: 0 auto;
     padding: 3rem 1.5rem;
 }
@@ -71,8 +69,8 @@ section h3 {
 
 /* Text */
 p {
-    margin-bottom: 1.2rem;
-    max-width: 70ch;
+    margin: 1rem 1rem 1rem 1rem;
+
 }
 
 ul {
@@ -86,9 +84,9 @@ li {
 /* Snowy Panels */
 section {
     background: rgba(255, 255, 255, 0.85);
-    border-radius: 12px;
+    border-radius: 30px;
     box-shadow: 0 10px 30px rgba(47, 79, 111, 0.12);
-    margin-bottom: 2.5rem;
+    margin: 1rem 1rem 1rem 1rem;
     display: flex;
     flex-direction: column;
 }
@@ -160,5 +158,61 @@ a:hover {
     header,
     footer {
         padding: 2rem 1.2rem;
+    }
+}
+
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden; /* Ensures borders/shadows contain content */
+    color: #ffffff;
+    background: slategrey;
+    border-radius: 30px;
+    box-shadow: 0 10px 30px rgba(47, 79, 111, 0.12);
+    margin: 1rem 1rem 1rem 1rem;
+}
+
+.card-image-wrapper {
+    flex: 2; /* Takes up 1 part of the flexible space */
+}
+
+.card-image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    display: block; /* Removes default bottom margin/whitespace */
+}
+
+.card-content {
+    flex: 2; /* Takes up 2 parts of the flexible space */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers content vertically */
+}
+
+.card-content h2 {
+    margin-top: 0;
+}
+
+.card-content p {
+    margin-bottom: 15px;
+}
+
+.card-content a {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    align-self: flex-start; /* Aligns the button to the start horizontally */
+}
+
+/* Responsive adjustment for small screens (optional) */
+@media (max-width: 600px) {
+    .card-container {
+        flex-direction: column; /* Stacks image on top of text */
     }
 }

@@ -14,12 +14,11 @@ function Maritimes () {
     return (
         <>
             <DestinationTemplate
-                heading="Atlantic Heritage Tours"
-
+                heading="The Maritimes"
                 byline="Nova Scotia & Prince Edward Island"
-
+                img="images/clock-tower.jpg"
+                alt="Historic clock tower from Halifax"
                 introduction={introString}
-
                 tourpackages={<MaritimeTours />}
             />
         </>

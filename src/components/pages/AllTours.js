@@ -1,6 +1,4 @@
 import React from "react";
-import {Link} from "react-router-dom";
-import video from "../../resources/videos/snowy-treetops.mp4";
 import '../shared/PageTemplate.css';
 import ArcticTours from "./Arctic/ArcticTours";
 import NewfoundlandTours from "./Newfoundland/NewfoundlandTours";

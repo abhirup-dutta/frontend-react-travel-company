@@ -14,12 +14,11 @@ function Arctic () {
     return (
         <>
             <DestinationTemplate
-                heading="Nunavut Maritimes Expeditions"
-
-                byline="Authentic Maritimes Journeys from Iqaluit"
-
+                heading="The Arctic"
+                byline="Nunavut expeditions from Iqaluit"
+                img="images/arctic-sun.jpg"
+                alt="White sun over arctic mountains"
                 introduction= {introString}
-
                 tourpackages={<ArcticTours />}
             />
         </>

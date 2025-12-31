@@ -16,12 +16,11 @@ function Newfoundland () {
     return (
         <>
             <DestinationTemplate
-                heading="Discover Newfoundland &amp; Labrador"
-
+                heading="Newfoundland &amp; Labrador"
                 byline="Where Ancient Cultures Meet the Wild Atlantic"
-
+                img="images/cabin.jpg"
+                alt="wood cabin with logs and antler on the wall"
                 introduction={introString}
-
                 tourpackages={<NewfoundlandTours />}
             />
         </>

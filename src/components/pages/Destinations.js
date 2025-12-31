@@ -3,7 +3,7 @@ import React from "react";
 import "../../App.css";
 import Cards from "../Cards";
 
-function Home () {
+function Destinations () {
 
     return (
         <>
@@ -14,4 +14,4 @@ function Home () {
 
 }
 
-export default Home;
+export default Destinations;
